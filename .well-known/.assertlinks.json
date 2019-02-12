@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "app.findmate",
+    "sha256_cert_fingerprints":
+    ["AA:DF:01:FC:EC:31:B3:D4:08:2D:6A:EB:B4:A5:8B:5F:64:CE:D0:31:2F:0E:EF:4B:38:1D:A8:5B:13:3F:C3:AA"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://jekkypan.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "app.findmate",
+    "sha256_cert_fingerprints":
+    ["AA:DF:01:FC:EC:31:B3:D4:08:2D:6A:EB:B4:A5:8B:5F:64:CE:D0:31:2F:0E:EF:4B:38:1D:A8:5B:13:3F:C3:AA"]
+  }
+}]
